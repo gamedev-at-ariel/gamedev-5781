@@ -10,11 +10,13 @@
 
 לפרטים ראו:
 
-* סילבוס  [בקובץ וורד](syllabus.docx)  ו[בקובץ פדף](syllabus.pdf)
+* [סילבוס](syllabus.pdf)
 
 * [חוקי צבירת הנקודות בקורס](grade-rules.md)
 
 * [למי הקורס **לא** מתאים](disclaimer.md)
+
+* [דרישות מערכת](hardware.md)
 
 * [משחקונים שפיתחו סטודנטים שלמדו את הקורס בשנה שעברה](https://sites.google.com/view/gamedev-5780)
 
