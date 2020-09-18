@@ -14,7 +14,7 @@
 
 * [חוקי צבירת הנקודות בקורס](grade-rules.md)
 
-* [כללי יושר בהגשת מטלות](honesty-rules.md)
+* [תקנון היושר בהגשת מטלות](https://www.ariel.ac.il/wp/cs/wp-content/uploads/sites/88/2020/08/Guidelines-for-Academic-Integrity.pdf)
 
 * [למי הקורס **לא** מתאים](disclaimer.md)
 
