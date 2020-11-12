@@ -4,7 +4,7 @@
 		<meta charset="utf-8" />
 		<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no" />
 
-		<title>פיתוח משחקי מחשב - יוניטי - יחסים בין עצמים</title>
+		<title>פיתוח משחקי מחשב - יוניטי - בניית תהליכי ליבה</title>
 
 		<link rel="stylesheet" href="../revealjs/css/reset.css" />
 		<link rel="stylesheet" href="../revealjs/css/reveal.css" />
@@ -22,16 +22,17 @@
 	<h1>פיתוח
 	<br/>
 		משחקי מחשב</h1>
-	<h2> מנוע יוניטי - יחסים בין עצמים</h2>
+	<h2> מנוע יוניטי - בניית תהליכי ליבה</h2>
 	<p>אראל סגל-הלוי</p>
 </section>
 
 <section>
-	<h1>יחסים בין עצמים</h1>
+	<h1>בניית תהליכי ליבה</h1>
 	<h2>נושאים ללימוד:</h2>
 	<ul>
 	<li>דגמים - Prefabs</li>
 	<li>התנגשויות - Collisions</li>
+	<li>ניהול שלבים - Scene management</li>
 	</ul>
 	<h2>משחקים להדגמה:</h2>
 	<ul>
@@ -125,72 +126,36 @@
 </section>
 
 
+<section>
+	<h1>מעבר לסצינה  אחרת</h1>
+	<p class="blue">SceneManagement.LoadScene:</p>
+	<ol>
+		<li>לפי שם או מספר סידורי;</li>
+		<li>שניהם "מסוכנים".</li>
+		<li>בשני המקרים יש להוסיף סצינות ל Build Settings.</li>
+	</ol>
+
+	<p class="blue">העברת משתנים בין סצינות:</p>
+	<ol>
+		<li>משתנה סטטי - קל בהתחלה, קשה בהמשך.</li>
+		<li>דגם עיצוב סינגלטון - להיפך.</li>
+	</ol>
+</section>
+
+
 
 <section>
 <h2>מושגים שלמדנו היום</h2>
 <ul>
 	<li>Prefab - דגם</li>
+	<li>Instantiate - יצירת עצם, Destroy - מחיקת עצם</li>
 	<li>Collision/Trigger - התנגשות</li>
 	<li>תגיות - Tags</li>
 	<li>פעולות מתוזמנות - CoRoutines</li>
 	<li>ירושה ב C#</li>
+	<li>מעבר סצינות - LoadScene</li>
+	<li>משתנים סטטיים ב C#</li>
 </ul>
-
-
-
-<!--section>
-	<h1>התנגשויות</h1>
-	<section>
-	<h2>סוגי גופים קשיחים - RigidBody</h2>
-		<ol>
-			<li><b>דינמי</b> - עם מיקום ומהירות, ומרגיש כוחות פיסיקליים.</li>
-			<li><b>קינמטי</b> - עם מיקום ומהירות בלבד - לא מרגיש כוחות.</li>
-			<li><b>סטטי</b> - עם מיקום בלבד - לא אמור לזוז.</li>
-			<ul>
-				<li>זה הסוג של גוף שאין לו רכיב RigidBody.</li>
-			</ul>
-		</ol>
-		<p class="blue">	 כל סוג יכול להיות בדו-ממד או בתלת-ממד - סה"כ 6.</p>
-	</section>
-
-	<section>
-	<h2>תנאים לקיום אירוע התנגשות</h2>
-		<ol>
-			<li>
-				לפחות אחד משני הגופים הוא דינמי - יש לו רכיב RigidBody
-			עם סוג Dynamic;
-			</li>
-			<li>שני הגופים הם "מתנגשים" - יש להם רכיב Collider;</li>
-			<li>כל הגופים והמתנגשים הם באותו ממד (2 או 3).</li>
-		</ol>
-		<p class="blue">במצב זה שני הגופים יקבלו "אירוע התנגשות":</p>
-		<ol>
-			<li>Collision - בתלת-ממד.</li>
-			<li>Collision2D - בדו-ממד.</li>
-		</ol>
-	</section>
-
-	<section>
-	<h2>תנאים לקיום אירוע טריגר</h2>
-		<ol>
-			<li>
-				לפחות אחד משני הגופים הוא דינמי או קינמטי;
-			</li>
-			<li>שני הגופים הם "מתנגשים", ולפחות אחד מהם מסומן כ-Trigger;</li>
-			<li>כל הגופים והמתנגשים הם באותו ממד (2 או 3).</li>
-		</ol>
-		<p class="blue">במצב זה שני הגופים יקבלו "אירוע טריגר":</p>
-		<ol>
-			<li>Trigger - בתלת-ממד.</li>
-			<li>Trigger2D - בדו-ממד.</li>
-		</ol>
-		<a class="small" href="‫‪https://docs.unity3d.com/Manual/CollidersOverview.html‬‬">טבלת התנגשויות באתר יוניטי</a>
-	</section>
-
-</section>
-
-
-</section-->
 
 
 
