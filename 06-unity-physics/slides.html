@@ -195,14 +195,21 @@
 </section>
 </section>
 
-<section>
-	<h1>התנגשויות פיסיקליות</h1>
+<section class="smaller">
+	<h1>אירועי התנגשות פיסיקליים</h1>
 	<section>
-		<h2>אירוע התנגשות פיסיקלי - Collision</h2>
+		<h2>התנגשות 2-ממדית - Collision2D</h2>
 		<ul>
 			<li>collision.collider - במי התנגשנו;</li>
-			<li>collision.velocity - באיזו מהירות;</li>
+			<li>collision.relativeVelocity - באיזו מהירות;</li>
+			<li><span dir="ltr">collision.GetContacts()</span> - מה היו נקודות-המגע;</li>
+		</ul>
+		<h2>התנגשות 3-ממדית - Collision</h2>
+		<ul>
+			<li>collision.collider - במי התנגשנו;</li>
+			<li>collision.relativeVelocity - באיזו מהירות;</li>
 			<li>collision.impulse - באיזה כוח*זמן;</li>
+			<li><span dir="ltr">collision.GetContacts()</span> - מה היו נקודות-המגע;</li>
 		</ul>
 	</section>
 	<section>
@@ -235,7 +242,8 @@
 	</section>
 
 	<section>
-		<h2>אפקטורים - מפעילי כוח (בשני ממדים בלבד)</h2>
+		<h2>אפקטורים - מפעילי כוח</h2>
+		<h3 class="red"> (בשני ממדים בלבד)</h3>
 		<ol>
 			<li>SurfaceEffector - משטח - למשל סרט נע <span class="small">(collision collider)</span>.</li>
 			<li>AreaEffector - איזור - למשל רוח  <span class="small">(trigger collider)</span>.</li>
