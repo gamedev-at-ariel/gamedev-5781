@@ -41,7 +41,6 @@
 חלק מחומרי הלימוד נכתבו ע"י חן אוסטרובסקי, אינה גריגור, ואביהוא אושרי.
 
 חלק מהחומר על יוניטי נלמד מקורסים ביודמי: [Unity 2D](https://www.udemy.com/course/unitycourse/learn/lecture/10248514),  [Unity 3D](https://www.udemy.com/course/unitycourse2/learn/lecture/8859276),  [Unity RPG](https://www.udemy.com/course/unityrpg/learn/lecture/14593312).
-ss
 
 [התמונה למטה מאתר reddit](https://www.reddit.com/r/gaming/comments/84884e/video_games_ruined_my_life/).
 
