@@ -22,7 +22,7 @@
 
 * [דרישות מערכת](hardware.md)
 
-* [משחקונים שפיתחו סטודנטים שלמדו את הקורס בשנה שעברה](https://sites.google.com/view/gamedev-5780)
+* [משחקונים שפיתחו סטודנטים שלמדו את הקורס בעבר](https://sites.google.com/view/gamedev-at-ariel)
 
 * [דוגמאות קוד להרצאות](../../../)
 
