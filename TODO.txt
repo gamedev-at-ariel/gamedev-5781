@@ -1,5 +1,5 @@
 Week 1: task - what makes a game fun? addictive?
-Week 2: Explain about resolutions and player size in Unity vs itch.
+Week 2-3: Explain about resolutions and player size in Unity vs itch.
 Week 4: Teach about Canvas / UI.
 Weeks 1-5: submit tasks individually!
 Week 6: meeting with students - oral explanation of the game concept - not only in pictures
